@@ -10,6 +10,7 @@
     "url": "http://callmecavs.com/"
   },
   "scripts": {
+    "dev": "webpack",
     "lint": "standard",
     "test": "mocha test"
   },
