@@ -27,6 +27,16 @@ const config = {
             }
           }
         ]
+      }, {
+        test: /\.(gif|jpg|png|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            query: {
+              limit: 8 * 1024
+            }
+          }
+        ]
       }
     ]
   },
