@@ -1,31 +1,24 @@
 {
-  "name":        "hsx",
+  "name": "hsx",
   "description": "",
-
   "version": "0.0.1",
   "license": "MIT",
-
   "repository": "callmecavs/hsx",
-
   "author": {
-    "name":  "Michael Cavalea",
+    "name": "Michael Cavalea",
     "email": "callmecavs@gmail.com",
-    "url":   "http://callmecavs.com/"
+    "url": "http://callmecavs.com/"
   },
-
   "scripts": {
     "lint": "standard",
     "test": "mocha test"
   },
-
-  "keywords": [
-
-  ],
-
+  "keywords": [],
   "dependencies": {
-
+    "babel-core": "^6.23.1",
+    "string-dom": "0.0.6",
+    "webpack": "^2.2.1"
   },
-
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
