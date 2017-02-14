@@ -10,15 +10,18 @@
     "url": "http://callmecavs.com/"
   },
   "scripts": {
-    "dev": "webpack",
+    "dev": "NODE_ENV=development webpack-dev-server --hot --inline",
+    "prod": "NODE_ENV=production webpack -p",
     "lint": "standard",
+    "server": "python -m SimpleHTTPServer 3000",
     "test": "mocha test"
   },
   "keywords": [],
   "dependencies": {
     "babel-core": "^6.23.1",
     "string-dom": "0.0.6",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",

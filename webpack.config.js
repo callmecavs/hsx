@@ -1,5 +1,7 @@
 const webpack = require('webpack')
 
+const isDev  = !process.argv.includes('-p')
+
 const config = {
   entry: {
     main: './entry.js'
@@ -7,7 +9,8 @@ const config = {
 
   output: {
     filename: 'bundle.js',
-    path: __dirname + 'dist'
+    path: __dirname + 'dist',
+    publicPath: '/'
   },
 
   module: {
@@ -26,7 +29,21 @@ const config = {
         ]
       }
     ]
-  }
+  },
+
+  cache: isDev ? true : false,
+
+  devtool: isDev ? 'cheap-module-eval-source-map' : false,
+
+  devServer: {
+    contentBase: __dirname,
+    port: 3000,
+    historyApiFallback: {
+      index: 'index.html'
+    }
+  },
+
+  target: 'web'
 }
 
 module.exports = config

@@ -1,11 +1,14 @@
-const sd = require('string-dom')
+import sd from 'string-dom'
+import Header from './header.js'
 
 /** @jsx sd */
 
 const Root = (
   <div id="root" class="root">
-    root div
+    <Header>
+      This is the header content
+    </Header>
   </div>
 )
 
-document.innerHTML += Root
+document.body.innerHTML += Root
