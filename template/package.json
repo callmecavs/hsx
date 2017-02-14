@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "description": "",
+  "version": "0.0.1",
+  "license": "",
+  "repository": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "lint": "standard",
+    "prod": "webpack -p",
+    "server": "python -m SimpleHTTPServer 3000"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "file-loader": "^0.10.0",
+    "standard": "^8.6.0",
+    "string-dom": "0.0.6",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
