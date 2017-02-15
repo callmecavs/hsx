@@ -9,6 +9,9 @@
     "email": "callmecavs@gmail.com",
     "url": "http://callmecavs.com/"
   },
+  "bin": {
+    "hsx": "hsx.js"
+  },
   "scripts": {
     "lint": "standard template"
   },
