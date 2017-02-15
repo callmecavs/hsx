@@ -31,14 +31,13 @@ $ npm i hsx -g
 To create a new project:
 
 ```sh
-# make a directory for it
-$ mkdir project
-$ cd project
+# using node and npm
+# install hsx globally
+$ npm install hsx -g
 
-# run hsx
-$ hsx
-
-# install dependencies, and start coding
+# use the hsx command from the CLI to scaffold a project
+# template files are copied to the CWD, unless a path is specified
+$ hsx [path]
 $ npm i
 $ npm run dev
 ```
