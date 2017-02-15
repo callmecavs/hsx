@@ -1,4 +1,4 @@
-import Div from './Div.js'
+import Div from './components/Div.js'
 import sd from 'string-dom'
 
 /** @jsx sd */
