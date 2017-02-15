@@ -2,6 +2,8 @@
 
 [![hsx Stability Index](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square)](https://nodejs.org/api/documentation.html#documentation_stability_index) [![hsx on NPM](https://img.shields.io/npm/v/hsx.svg?style=flat-square)](https://www.npmjs.com/package/hsx) [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
+Static HTML sites with JSX and webpack (no React).
+
 ## About
 
 * Meant for building static websites (not apps)
@@ -16,7 +18,7 @@
 * `webpack` is insanely powerful
 * Building static sites via a module bundler offers some advantages over `gulp`/`grunt`
 
-## Note
+## See Also
 
 This repo is basically just a CLI for scaffolding a new project, and the template (basically an opinionated `webpack` config). Under the hood, [`string-dom`](https://github.com/callmecavs/string-dom) is what transforms the JSX to HTML.
 
