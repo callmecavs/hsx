@@ -18,6 +18,7 @@
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
     "file-loader": "^0.10.0",
     "standard": "^8.6.0",
     "string-dom": "0.0.6",
