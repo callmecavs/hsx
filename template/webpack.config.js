@@ -4,7 +4,7 @@ const isDev  = !process.argv.includes('-p')
 
 const config = {
   entry: {
-    main: './entry.js'
+    main: './index.js'
   },
 
   output: {
