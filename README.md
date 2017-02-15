@@ -44,6 +44,32 @@ $ npm i
 $ npm run dev
 ```
 
+## First Component
+
+Note the cue to `babel` to [transform JSX into `sd` function calls](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx#custom), instead of `React.createElement`.
+
+```javascript
+import sd from 'string-dom'
+
+/** @jsx sd */
+
+// create our Site component
+// children is the HTML wrapped by the element
+const Site = ({ children, name }) => (
+  <div class={ name }>
+    { children }
+  </div>
+)
+
+// add it to the DOM, with some inner content
+document.body.innerHTML += (
+  <Site name="site">
+    <h1>hsx</h1>
+    <p>This is inside the Site component!</p>
+  </Site>
+)
+```
+
 ## Linting
 
 [![JS Standard Style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
