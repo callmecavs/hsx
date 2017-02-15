@@ -1,6 +1,6 @@
 # hsx
 
-[![hsx on NPM](https://img.shields.io/npm/v/hsx.svg?style=flat-square)](https://www.npmjs.com/package/hsx) [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
+[![hsx Stability Index](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square)](https://nodejs.org/api/documentation.html#documentation_stability_index) [![hsx on NPM](https://img.shields.io/npm/v/hsx.svg?style=flat-square)](https://www.npmjs.com/package/hsx) [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 ## About
 
