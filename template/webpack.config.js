@@ -21,7 +21,7 @@ const {
 const isDev = !process.argv.includes('-p')
 
 const config = {
-  content: __dirname + '/src',
+  context: __dirname + '/src',
 
   entry: {
     main: './index.js'
