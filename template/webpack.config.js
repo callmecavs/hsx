@@ -91,7 +91,7 @@ const config = {
   plugins: [
     new DefinePlugin({
       'DEV': isDev,
-      'PROD': isProd
+      'PROD': !isDev
     }),
 
     new LoaderOptionsPlugin({
