@@ -16,16 +16,16 @@
     "server": "python -m SimpleHTTPServer 3000"
   },
   "dependencies": {
-    "string-dom": "^0.0.6",
+    "string-dom": "0.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.0",
+    "babel-loader": "^6.4.0",
     "babel-plugin-transform-react-jsx": "^6.23.0",
-    "file-loader": "^0.10.0",
-    "standard": "^8.6.0",
-    "url-loader": "^0.5.7",
+    "file-loader": "^0.10.1",
+    "standard": "^9.0.1",
+    "url-loader": "^0.5.8",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0"
+    "webpack-dev-server": "^2.4.1"
   }
 }
