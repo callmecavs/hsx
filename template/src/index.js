@@ -1,10 +1,13 @@
-import Div from './components/Div.js'
 import sd from 'string-dom'
+
+import Main from './components/Main.js'
 
 /** @jsx sd */
 
 const Root = (
-  <Div class="heading">hsx</Div>
+  <Main class="site">
+    hsx
+  </Main>
 )
 
 document.getElementById('root').innerHTML = Root

@@ -7,8 +7,8 @@ import './main.scss'
 
 /** @jsx sd */
 
-const Main = ({ children }) => (
-  <div class="site">
+const Main = ({ children, name }) => (
+  <div class={ name }>
     { children }
   </div>
 )
