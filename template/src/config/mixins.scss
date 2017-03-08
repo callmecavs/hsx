@@ -1,0 +1,30 @@
+// NOTE: import this in Sass files that need access to vars and mixins
+
+@mixin clearfix {
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin font-face($font-name, $file-name) {
+  @font-face {
+    font-family: $font-name;
+    src: url("fonts/#{$file-name}.woff2") format("woff2"),
+         url("fonts/#{$file-name}.woff") format("woff");
+  }
+}
+
+@mixin hide-text {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+@mixin min($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
