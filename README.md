@@ -8,15 +8,14 @@ Static HTML sites with JSX, Sass, and webpack (no React).
 
 * Meant for building static websites (not apps)
 * Compiles JSX to HTML, without React (JSX becomes an HTML templating language)
-* Create simple Components similar to React's functional stateless components
-* Uses webpack2 to build the JSX
+* Supports simple, presentational [Components](https://github.com/callmecavs/hsx/tree/cavs/upgrades#first-component) (similar to React's functional stateless components)
 
 ## Why?
 
-* JSX is an incredibly powerful templating language
+* JSX is an incredibly powerful HTML templating language
 * "HTML in JS" feels awesome
 * `webpack` is insanely powerful
-* Building static sites via a module bundler offers some advantages over `gulp`/`grunt`
+* Building static sites with a module bundler (`webpack`) offers distinct advantages over `gulp`/`grunt`
 
 ## What's in the Box
 
