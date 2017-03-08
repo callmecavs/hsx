@@ -1,6 +1,6 @@
 import sd from 'string-dom'
 
-import Main from './components/Main.js'
+import Main from './components/Main/Main.js'
 
 /** @jsx sd */
 
