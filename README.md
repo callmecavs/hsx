@@ -8,7 +8,7 @@ Static HTML sites with JSX, Sass, and webpack (no React).
 
 * Meant for building static websites (not apps)
 * Compiles JSX to HTML, without React (JSX becomes an HTML templating language)
-* Supports simple, presentational [Components](https://github.com/callmecavs/hsx/tree/cavs/upgrades#first-component) (similar to React's functional stateless components)
+* Supports simple, presentational [Components](https://github.com/callmecavs/hsx/tree/cavs/master#first-component) (similar to React's functional stateless components)
 
 ## Why?
 
@@ -26,7 +26,9 @@ Static HTML sites with JSX, Sass, and webpack (no React).
   * Sass and [`postcss`](https://github.com/postcss/postcss) (with [`autoprefixer`](https://github.com/postcss/autoprefixer) and [`rucksack`](https://github.com/simplaio/rucksack))
   * Image compression via [`imagemin`](https://github.com/imagemin/imagemin)
   * Local server powered by [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server)
-* Minimal [`package.json`](https://github.com/callmecavs/hsx/blob/cavs/master/template/package.json) with some useful [`npm scripts`](https://github.com/callmecavs/hsx/blob/cavs/master/template/package.json#L13-L15)
+* Wired-up [`Main` component](https://github.com/callmecavs/hsx/tree/cavs/master/template/src/components/Main)
+* Minimal [Sass boilerplate](https://github.com/callmecavs/hsx/tree/cavs/master/template/src/config) (hard reset, mixins, variables, etc)
+* [`package.json`](https://github.com/callmecavs/hsx/blob/cavs/master/template/package.json) with some useful [`npm scripts`](https://github.com/callmecavs/hsx/blob/cavs/master/template/package.json#L13-L15)
 
 ## Install
 
@@ -49,6 +51,8 @@ $ hsx [path]
 $ npm i
 $ npm run dev
 ```
+
+Then, in your browser: [http://localhost:3000/](http://localhost:3000/)
 
 ## First Component
 
