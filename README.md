@@ -8,7 +8,7 @@ Static HTML sites with JSX, Sass, and webpack (no React).
 
 * Meant for building static websites (not apps)
 * Compiles JSX to HTML, without React (JSX becomes an HTML templating language)
-* Supports simple, presentational [Components](https://github.com/callmecavs/hsx/blob/master#first-component) (similar to React's functional stateless components)
+* Supports simple, presentational [Components](https://github.com/callmecavs/hsx/tree/master#first-component) (similar to React's functional stateless components)
 
 ## Why?
 
