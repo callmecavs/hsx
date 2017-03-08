@@ -1,7 +1,7 @@
 {
   "name": "hsx",
   "description": "Static HTML sites with JSX, Sass, and webpack (no React).",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "license": "MIT",
   "repository": "callmecavs/hsx",
   "author": {
