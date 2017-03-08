@@ -12,8 +12,7 @@
   "scripts": {
     "dev": "webpack-dev-server --hot --inline",
     "lint": "standard",
-    "prod": "webpack -p",
-    "server": "python -m SimpleHTTPServer 3000"
+    "prod": "webpack -p"
   },
   "dependencies": {
     "string-dom": "0.0.6"
